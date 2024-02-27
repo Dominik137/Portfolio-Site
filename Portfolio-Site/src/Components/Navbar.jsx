@@ -6,7 +6,7 @@ function Navbar(){
         <>
         <nav style={{ backgroundColor: '#738678' }}>
   <ul>
-    <li><strong style={{ color: 'white', paddingLeft: '15px', fontSize: '30px', fontFamily: 'kode-mono'}}>Dominik Arment</strong></li>
+    <li><strong style={{ color: 'white', paddingLeft: '15px', fontSize: '30px'}} className="kode-mono">Dominik Arment</strong></li>
   </ul>
   <ul style={{paddingRight: '15px'}}>
     <li>
