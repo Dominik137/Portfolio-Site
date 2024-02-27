@@ -61,14 +61,15 @@ function ProjectCard(){
               <article style={{cursor: 'pointer', margin: '15px' }} key={repo.id} onClick={()=>navigate(`projectPage/${repo.name}`, { state: repo })}>
                <div className="grid">
                      <p>
-                        {repo.name === "allCar-FullStack-Project" ? 
-                         <>{repo.name} 🚗 <img width={'200px'} src={'../../public/allCar.png'} alt="All Car Project" /></> :
-                        repo.name === "Coffee-Compass-JavaScript-Project" ? `${repo.name} ☕️` : 
-                        repo.name === "Sony-Synth-React-Project" ? `${repo.name} 🎵` :
-                        repo.name === "Subscription-Saver-Python-Project" ? `${repo.name} 💽` :
-                        repo.name === "Sweat-Spectrum-FullStack-Project" ? `${repo.name} 💦` :
-                        repo.name}
-                   
+                     {repo.name === "allCar-FullStack-Project" ? 
+                    <>{repo.name} 🚗 <img width={'200px'} src={'../../public/allCar.png'} alt="All Car Project" /></> :
+                    repo.name === "Coffee-Compass-JavaScript-Project" ? `${repo.name} ☕️` : 
+                    repo.name === "Sony-Synth-React-Project" ? `${repo.name} 🎵` :
+                    repo.name === "Subscription-Saver-Python-Project" ? `${repo.name} 💽` :
+                    (repo.name === "Sweat-Spectrum-FullStack-Project" ?
+                        <>{repo.name} 💦 <img width={'200px'} src={'../../public/SweatSpectrum.png'} alt="Sweat Spectrum Project" /></> :
+                        repo.name)
+                      }
                       <a target="_blank" href={repo.html_url} onClick={(e) => handleLinkClick(e, repo.html_url)}>{repo.html_url}</a>
                     </p>
                     <p>{repo.description}</p>
