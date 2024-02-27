@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./Home";
 import Navbar from "./Navbar";
+import ProjectPage from "./ProjectPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function Layout(){
@@ -13,6 +14,7 @@ function Layout(){
 
           <Routes>
             <Route path='/' element={<Home />}/>
+            <Route path="/projectPage/:projectName" element={<ProjectPage />} />
           </Routes>
 
     
