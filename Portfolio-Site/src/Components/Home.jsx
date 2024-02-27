@@ -5,8 +5,8 @@ function Home(){
 
     return(
         <>
-        <div className="grid">
-            <div style={{textAlign: 'center'}}>
+        <div className="grid" >
+            <div style={{textAlign: 'center', marginLeft: '15px', marginRight: '15px'}}>
                 <h1 style={{paddingTop: '10px'}} className="kode-mono">About me</h1>
                     <article black border around card>
                         <p>

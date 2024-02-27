@@ -56,12 +56,12 @@ function ProjectCard(){
 
     return (
         <>
-          <ul>
+        <div>
             {repos.map(repo => (
-              <article style={{cursor: 'pointer', margin: '15px'}} key={repo.id} onClick={()=>navigate(`projectPage/${repo.name}`, { state: repo })}>
-               <div className="grid">
+              <article className="proj-card" style={{cursor: 'pointer', margin: '15px'}} key={repo.id} onClick={()=>navigate(`projectPage/${repo.name}`, { state: repo })}>
+               <div className="grid ">
                   <div>               
-                     <h2 className="kode-mono" style={{fontSize: '20px'}}>
+                     <h2 className="kode-mono" style={{fontSize: '18px'}}>
                      {repo.name === "allCar-FullStack-Project" ? 
                     <>{repo.name} 🚗 <img style={{paddingTop: '8px'}} width={'200px'} src={'../../public/allCar.png'} alt="All Car Project" /></> :
                     repo.name === "Coffee-Compass-JavaScript-Project" ? 
@@ -82,11 +82,11 @@ function ProjectCard(){
                     </svg>
                       Repo Link</a>
                     </div>
-                    <p style={{fontFamily: 'roboto-mono'}}>{repo.description}</p>
+                    <p style={{fontFamily: 'roboto-mono', fontSize: '20px', marginTop: '25px'}}>{repo.description}</p>
                 </div>
               </article>
   ))}
-</ul>
+</div>
           
         </>
       );
