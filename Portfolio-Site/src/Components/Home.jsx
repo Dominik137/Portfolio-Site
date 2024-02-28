@@ -6,7 +6,7 @@ function Home(){
     return(
         <>
         <div className="grid" >
-            <div style={{textAlign: 'center', marginLeft: '15px', marginRight: '15px'}}>
+            <div style={{textAlign: 'center', marginLeft: '15px', marginRight: '15px', height: '100vh'}}>
                 <h1 style={{paddingTop: '10px', paddingBottom: '23px'}} className="kode-mono">About me</h1>
                     <article style={{border: '2px solid black'}}>
                         <div style={{fontSize: '20px', fontFamily: 'Roboto-mono'}}>

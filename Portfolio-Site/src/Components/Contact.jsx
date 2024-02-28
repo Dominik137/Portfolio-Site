@@ -32,7 +32,7 @@ function Contact() {
             navigate('/');
         }, 1500);
         return (
-            <div className="grid">
+            <div className="grid" style={{height: '100vh'}}>
                 <div></div>
                 <p style={{ textAlign: 'center', paddingTop: '20px', fontSize: '30px' }} className="kode-mono">
                     Your message has been sent

@@ -46,7 +46,7 @@ function ProjectPage(){
                 <article style={{padding: '25px', border: '1px solid black'}}>
                                         <p  style={{fontFamily: 'roboto-mono', fontSize: '20px' }} >
                                         <strong>Overview:</strong><br/>
-                                        "Introducing AllCar," marks the culmination of my journey at Flatiron School's boot camp, where I devoted three weeks to crafting a comprehensive full-stack web application. This project holds significant personal meaning as it represents the culmination of my dedication and effort. AllCar was conceived from my aspiration to develop a platform that streamlines vehicle management while offering users an abundance of information and convenience.
+                                        AllCar marks the culmination of my journey at Flatiron School's boot camp, where I devoted three weeks to crafting a comprehensive full-stack web application. This project holds significant personal meaning as it represents the culmination of my dedication and effort. AllCar was conceived from my aspiration to develop a platform that streamlines vehicle management while offering users an abundance of information and convenience.
                                         <br/>  <br/>
                                         <strong>Key Features:</strong>
                                         <br/>
