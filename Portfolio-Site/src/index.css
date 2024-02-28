@@ -14,3 +14,7 @@
   background: #738678; /* Background color on hover */
   color: white; /* Text color on hover */
 }
+.contactbutton {
+  color: black;
+  font-family: Kode Mono;
+}

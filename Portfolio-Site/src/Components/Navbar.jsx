@@ -1,6 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Navbar(){
+
+const navigate = useNavigate()
 
     return(
         <>
@@ -25,7 +28,7 @@ function Navbar(){
       </a>
     </li>
     <li>
-      <a href="#" style={{ color: 'white'}}>Contact</a>
+      <a href="#" style={{ color: 'white'}} onClick={()=>{navigate('/contact')}}>Contact</a>
     </li>
   </ul>
 </nav>

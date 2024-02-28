@@ -9,13 +9,14 @@ function Home(){
             <div style={{textAlign: 'center', marginLeft: '15px', marginRight: '15px'}}>
                 <h1 style={{paddingTop: '10px'}} className="kode-mono">About me</h1>
                     <article black border around card>
-                        <p>
-                        Hello, I'm Dominik. <img width={'100px'}  style={{borderRadius: '50%', border: '2px solid #738678 '}} src="../../public/me.png"/>
-                        <br/>
-                        In October 2023, I enrolled in Flatiron School's coding BootCamp in Denver, driven by a passion for software engineering. Completing the program in February 2024, I immersed myself in full-stack web development.
-                        <br/>
-                        Despite challenges, I persevered, fueled by the thrill of problem-solving. Now, with my BootCamp completed, I'm eager to make my mark in the tech industry, continuously refining my craft. Here are some of the projects I have created so far!
-                        </p>
+                        <div style={{fontSize: '20px', fontFamily: 'Roboto-mono'}}>
+                    <p>Hello, I'm Dominik. <img width={'100px'}  style={{borderRadius: '50%', border: '2px solid #738678 '}} src="../../public/me.png"/></p>
+                    <p>In October 2023, I enrolled in Flatiron School's coding BootCamp in Denver, driven by my passion for software engineering. Completing the program in February 2024, I gained expertise in both front and back-end development.</p>
+                    <p>Throughout my journey, I encountered challenges that sharpened my problem-solving skills. Despite obstacles, I maintained focus and delivered high-quality projects.</p>
+                    <p>I pride myself on being a fast learner and detail-oriented individual. My projects demonstrate not only technical proficiency but also a keen eye for design and functionality.</p>
+                    <p>Now equipped with a solid foundation in software engineering, I am eager to make a meaningful impact in the tech industry. I am continuously refining my craft and seeking opportunities to collaborate and innovate.</p>
+                    <p>Here are some of the projects I have created:</p>
+                        </div>
                     </article>
             </div>
             <div style={{textAlign: 'center'}}>

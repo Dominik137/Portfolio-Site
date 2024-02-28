@@ -18,6 +18,11 @@ function ProjectPage(){
             <div>
                 <h1>{repo.name}</h1>
                 <p>{repo.description}</p>
+                <div>
+                    {repo.name === "allCar-FullStack-Project" ? 
+                    <><img src="allCar.png"/></> : ''
+                    }
+                </div>
             </div>
             <div></div>
         </div>
