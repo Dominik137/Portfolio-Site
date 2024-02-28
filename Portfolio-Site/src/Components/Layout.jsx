@@ -10,7 +10,7 @@ function Layout(){
     return(
         <>
         
-        
+        <div>
         <Navbar /> 
 
           <Routes>
@@ -19,7 +19,7 @@ function Layout(){
             <Route path="/contact" element={<Contact />} />
           </Routes>
 
-    
+    </div>
 
         </>
     )

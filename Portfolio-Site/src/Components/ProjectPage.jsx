@@ -43,7 +43,7 @@ function ProjectPage(){
                 
                 </div>
                 </div>
-                <div style={{padding: '25px', border: '1px solid black'}}>
+                <article style={{padding: '25px', border: '1px solid black'}}>
                                         <p  style={{fontFamily: 'roboto-mono', fontSize: '20px' }} >
                                         <strong>Overview:</strong><br/>
                                         "Introducing AllCar," marks the culmination of my journey at Flatiron School's boot camp, where I devoted three weeks to crafting a comprehensive full-stack web application. This project holds significant personal meaning as it represents the culmination of my dedication and effort. AllCar was conceived from my aspiration to develop a platform that streamlines vehicle management while offering users an abundance of information and convenience.
@@ -65,7 +65,7 @@ function ProjectPage(){
                                         <strong>Personal Reflection:</strong><br/>
                                         AllCar transcends being merely a project; it embodies my dedication, passion, and growth as a developer. It represents the fusion of modern frontend frameworks with a robust backend architecture to deliver an unparalleled user experience. Whether it's registering, adding detailed car specifications, chatting with the AI, or locating mechanics, each feature is crafted with meticulous care and a profound understanding of the needs of car enthusiasts. 
                                         </p>
-                    </div>
+                    </article>
                 </> 
 
                 :

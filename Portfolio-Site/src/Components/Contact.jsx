@@ -49,7 +49,7 @@ function Contact() {
             <span className="material-symbols-outlined" style={{ fontSize: '40px', border: '2px solid #738678', bottom: '2px', cursor: 'pointer' }} onClick={() => navigate('/')}>
                 arrow_back
             </span>
-            <div className='grid'>
+            <div className='grid' style={{height: '100vh'}}>
                 <div></div>
                 <form onSubmit={handleValidation}>
                     <label htmlFor="email" className="kode-mono" style={{ textAlign: 'center' }}>

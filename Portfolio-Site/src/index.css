@@ -6,9 +6,11 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+.proj-card{
+  border: 1px solid black
+}
 .proj-card:hover {
-  border: 2px solid #738678; /* Border color on hover */
+  border: 3px solid #738678; /* Border color on hover */
 }
 .material-symbols-outlined:hover {
   background: #738678; /* Background color on hover */
@@ -17,4 +19,24 @@
 .contactbutton {
   color: black;
   font-family: Kode Mono;
+}
+
+.project-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.proj-card {
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 15px;
+  border: 2px solid black;
+  padding: 15px;
+}
+.root{
+  background-color: #E0E4E2;
+  height: auto; 
+  width: 100%; /* 100% of the viewport width */
 }
