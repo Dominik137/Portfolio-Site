@@ -5,7 +5,7 @@ function Home(){
 
     return(
         <>
-        <div className="grid"  >
+        <div class="grid"  >
             <div style={{textAlign: 'center', paddingRight: '10px', paddingLeft: '10px', height: '100vh', paddingBottom: '5px'}}>
                 <h1 style={{paddingTop: '10px', paddingBottom: '23px'}} className="kode-mono">About me</h1>
                     <article style={{border: '2px solid black', marginTop: '60px'}}>
@@ -21,7 +21,10 @@ function Home(){
             </div>
             <div className="projects-title" style={{textAlign: 'center'}}>
                 <h1 style={{paddingTop: '10px', marginBottom: '0px'}} className="kode-mono">Projects</h1>
-                <p style={{fontSize: '15px', fontWeight: '100'}}>Click on a project to see more info</p>
+                <p style={{fontSize: '15px', fontWeight: '100'}}>Click on a project to see more info
+                <br/>
+                Swipe to see other projects
+                </p>
                 <ProjectCard />
             </div>
     

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams, useLocation, useNavigate } from 'react-router-dom';
 
 
@@ -6,6 +6,10 @@ function ProjectPage(){
     const location = useLocation();
     const repo = location.state;
     const navigate = useNavigate()
+
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    },[])
     console.log(repo)
     return(
         <>

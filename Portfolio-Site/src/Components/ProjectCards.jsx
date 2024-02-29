@@ -52,8 +52,9 @@ function ProjectCard() {
         dots: true,        
         infinite: true,
         speed: 500,
-        slidesToShow: 3, // Display 3 cards at a time
-        slidesToScroll: 1
+        slidesToShow: 1, 
+        slidesToScroll: 1,
+        
         
     };
 
@@ -65,21 +66,22 @@ function ProjectCard() {
                     if (!repo) return null;
                     return (
                         <article className="proj-card" key={repo.id} onClick={() => navigate(`projectPage/${repo.name}`, { state: repo })}>
-                            <div className=" ">
-                                <div>
-                                    <h2 className="kode-mono" style={{ fontSize: '18px' }}>
+                            <div className="">
+                                <div style={{ alignContent: "center"}}>
+                                    <h2 className="kode-mono" style={{ fontSize: '18px'  }}>
+                                        <div className="vertGrid">
                                         {repo.name === "allCar-FullStack-Project" ?
-                                            <>{repo.name} 🚗 <img style={{ paddingTop: '8px' }} width={'200px'} src={'../allCar.png'} alt="All Car Project" /></> :
+                                            <>{repo.name} 🚗 <img style={{ paddingTop: '8px' }} width={'400px'} src={'../allCar.png'} alt="All Car Project" /></> :
                                             repo.name === "Sweat-Spectrum-FullStack-Project" ?
-                                                <>{repo.name} 💦 <img style={{ paddingTop: '8px' }} width={'200px'} src={'../SweatSpectrum.png'} alt="Sweat Spectrum Project" /></> :
+                                                <>{repo.name} 💦 <img style={{ paddingTop: '8px' }} width={'400px'} src={'../SweatSpectrum.png'} alt="Sweat Spectrum Project" /></> :
                                                 repo.name === "Song-Synth-React-Project" ?
-                                                    <>{repo.name} 🎵 <img style={{ paddingTop: '8px' }} width={'200px'} src="../SongSynth.png" /></> :
+                                                    <>{repo.name} 🎵 <img style={{ paddingTop: '8px' }} width={'400px'} src="../SongSynth.png" /></> :
                                                     repo.name === "Subscription-Saver-Python-Project" ?
-                                                        <>{repo.name} 💽 <img style={{ paddingTop: '8px' }} width={'200px'} src="../SubSaver.png" /></> :
+                                                        <>{repo.name} 💽 <img style={{ paddingTop: '8px' }} width={'400px'} src="../SubSaver.png" /></> :
                                                         repo.name === "Coffee-Compass-JavaScript-Project" ? 
-                                                            <>{repo.name} ☕️ <img style={{ paddingTop: '8px' }} width={'200px'} src="'../../CoffeCompass.png" /></> :
+                                                            <>{repo.name} ☕️ <img style={{ paddingTop: '8px' }} width={'400px'} src="'../../CoffeCompass.png" /></> :
                                                             repo.name
-                                        }
+                                        }</div>
                                     </h2>
                                     <a style={{ fontSize: '20px', fontFamily: 'roboto-mono', color: '#738678' }} target="_blank" href={repo.html_url} onClick={(e) => handleLinkClick(e, repo.html_url)}>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
