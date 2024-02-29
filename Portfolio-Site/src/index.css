@@ -113,13 +113,13 @@
 
 }
 
-@media (max-width: 385px){
+@media (max-width: 375px){
   .project-card-container{
      padding-top: 40px;
      padding-left: 9px;
   }
   .projects-title{
-    padding-top: 480px;
+    padding-top: 540px;
   }
 
 }
