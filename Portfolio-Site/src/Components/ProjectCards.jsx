@@ -57,15 +57,15 @@ function ProjectCard() {
                             <div>
                                 <h2 className="kode-mono" style={{ fontSize: '18px' }}>
                                     {repo.name === "allCar-FullStack-Project" ?
-                                        <>{repo.name} 🚗 <img style={{ paddingTop: '8px' }} width={'200px'} src={'../../public/allCar.png'} alt="All Car Project" /></> :
+                                        <>{repo.name} 🚗 <img style={{ paddingTop: '8px' }} width={'200px'} src={'../allCar.png'} alt="All Car Project" /></> :
                                         repo.name === "Sweat-Spectrum-FullStack-Project" ?
-                                            <>{repo.name} 💦 <img style={{ paddingTop: '8px' }} width={'200px'} src={'../../public/SweatSpectrum.png'} alt="Sweat Spectrum Project" /></> :
+                                            <>{repo.name} 💦 <img style={{ paddingTop: '8px' }} width={'200px'} src={'../SweatSpectrum.png'} alt="Sweat Spectrum Project" /></> :
                                             repo.name === "Song-Synth-React-Project" ?
-                                                <>{repo.name} 🎵 <img style={{ paddingTop: '8px' }} width={'200px'} src="../../public/SongSynth.png" /></> :
+                                                <>{repo.name} 🎵 <img style={{ paddingTop: '8px' }} width={'200px'} src="../SongSynth.png" /></> :
                                                 repo.name === "Subscription-Saver-Python-Project" ?
-                                                    <>{repo.name} 💽 <img style={{ paddingTop: '8px' }} width={'200px'} src="../../public/SubSaver.png" /></> :
-                                                    repo.name === "Coffee-Compass-JavaScript-Project" ?
-                                                        <>{repo.name} ☕️ <img style={{ paddingTop: '8px' }} width={'200px'} src="'../../public/Coffecompass.png" /></> :
+                                                    <>{repo.name} 💽 <img style={{ paddingTop: '8px' }} width={'200px'} src="../SubSaver.png" /></> :
+                                                    repo.name === "Coffee-Compass-JavaScript-Project" ? 
+                                                        <>{repo.name} ☕️ <img style={{ paddingTop: '8px' }} width={'200px'} src="'../../CoffeCompass.png" /></> :
                                                         repo.name
                                     }
                                 </h2>

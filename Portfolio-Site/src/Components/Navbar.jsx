@@ -9,7 +9,7 @@ const navigate = useNavigate()
         <>
         <nav style={{ backgroundColor: '#738678' }}>
   <ul>
-    <li><strong style={{ color: 'white', paddingLeft: '15px', fontSize: '30px'}} className="kode-mono">Dominik Arment</strong></li>
+    <li style={{ paddingLeft: '20px'}}><strong style={{ color: 'white', fontSize: '30px'}} className="kode-mono">Dominik Arment</strong></li>
   </ul>
   <ul style={{paddingRight: '15px'}}>
     <li>

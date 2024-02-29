@@ -30,7 +30,7 @@ function ProjectPage(){
                 <>
                 <div style={{paddingTop: '0px'}}>
                     <div style={{textAlign: 'center'}} >
-                <img src="../../public/allCar.png" width={'70%'} />
+                <img src="../allCar.png" width={'70%'} />
                     </div>
                     <div style={{paddingTop: '30px', textAlign: 'center'}}>
                 <h2 className="kode-mono" style={{textAlign: 'center'}}>Tech Stack</h2>
@@ -73,7 +73,7 @@ function ProjectPage(){
                 <>
                 <div style={{paddingTop: '0px'}}>
                     <div style={{textAlign: 'center'}} >
-                <img src="../../public/CoffeCompass.png" width={'70%'} />
+                <img src="../CoffeCompass.png" width={'70%'} />
                     </div>
                     <div style={{paddingTop: '30px', textAlign: 'center'}}>
                 <h2 className="kode-mono" style={{textAlign: 'center'}}>Tech Stack</h2>
@@ -84,7 +84,7 @@ function ProjectPage(){
                
                 </div>
                 </div>
-                <div style={{padding: '25px', border: '1px solid black'}}>
+                <article style={{padding: '25px', border: '1px solid black'}}>
                         <p  style={{fontFamily: 'roboto-mono', fontSize: '20px' }} >
                         <strong>Overview:</strong><br/>
                         "Coffee Compass" is a web application developed by (me) Dominik Arment and Emmi Lindsey during our tenure at the Flatiron School. The project serves as a handy tool for users seeking coffee shops in their area. It provides pertinent details such as WiFi availability, space rating, location, and operating hours, facilitating an informed decision-making process for coffee enthusiasts. The Coffee Shops that are pre populated, are ones from the Denver area, however users are able to input their own shops that they want to save.
@@ -104,14 +104,14 @@ function ProjectPage(){
                         <u>Database:</u>  JSON (utilized for data storage)<br/>
                         <u>Design and Styling:</u> The website boasts an aesthetically pleasing design achieved through a grid layout implemented using CSS. This layout ensures that the header remains fixed at the top while organizing content into three columns. The middle column showcases detailed information about coffee shops, the left column houses a navigation bar with images of stored shops, and the right column features a submission form for adding new coffee shops.
                         </p>
-                    </div>
+                    </article>
                 </> 
                 : 
                 repo.name === "Song-Synth-React-Project" ? 
                 <>
                 <div style={{paddingTop: '0px'}}>
                     <div style={{textAlign: 'center'}} >
-                <img src="../../public/SongSynth.png" width={'70%'} />
+                <img src="../SongSynth.png" width={'70%'} />
                     </div>
                     <div style={{paddingTop: '30px', textAlign: 'center'}}>
                 <h2 className="kode-mono" style={{textAlign: 'center'}}>Tech Stack</h2>
@@ -122,7 +122,7 @@ function ProjectPage(){
                
                 </div>
                 </div>
-                <div style={{padding: '25px', border: '1px solid black'}}>
+                <article style={{padding: '25px', border: '1px solid black'}}>
                         <p  style={{fontFamily: 'roboto-mono', fontSize: '20px' }} >
                         <strong>Overview:</strong><br/>
                         "Song Synth" is a React application I developed. It's designed to harness the power of the Spotify API for users to seamlessly explore and save music from their favorite artists. With Song Synth, users can log in with their Spotify accounts, enabling them to search for artists and access their albums and songs. They can then add their preferred music to their saved collection, accessible through a dedicated route titled "my-saves".
@@ -142,14 +142,14 @@ function ProjectPage(){
                         <u>Database:</u>  JSON (utilized for local saves)<br/>
                         <u>Design and Styling:</u> The website aims for a retro look. The search functionality coupled with the artists cars and then albumns and sogns is designed to be userfriendly and minimal.
                         </p>
-                    </div>
+                    </article>
                 </> 
                 :
                 repo.name === "Subscription-Saver-Python-Project" ? 
                 <>
                 <div style={{paddingTop: '0px'}}>
                     <div style={{textAlign: 'center'}} >
-                <img src="../../public/SubSaver.png" width={'70%'} />
+                <img src="../SubSaver.png" width={'70%'} />
                     </div>
                     <div style={{paddingTop: '30px', textAlign: 'center'}}>
                 <h2 className="kode-mono" style={{textAlign: 'center'}}>Tech Stack</h2>
@@ -157,7 +157,7 @@ function ProjectPage(){
                 <img src='data:image/png;base64,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' width={'10%'} style={{padding: '3px'}}/>
                 </div>
                 </div>
-                <div style={{padding: '25px', border: '1px solid black'}}>
+                <article style={{padding: '25px', border: '1px solid black'}}>
                         <p  style={{fontFamily: 'roboto-mono', fontSize: '20px' }} >
                         <strong>Overview:</strong><br/>
                         Subscription Saver is a Python-based command-line application designed to provide users with a convenient way to manage their subscriptions. With Subscription Saver, users can create accounts, add, edit, or delete subscriptions, and keep track of important information related to their subscriptions. Subscription Saver showcases my skills in working with Python classes, SQL, and building relational databases. It demonstrates my ability to create efficient command-line applications with a focus on user experience and data management.
@@ -176,7 +176,7 @@ function ProjectPage(){
                         <u>Database:</u>  JSON (utilized for local saves)<br/>
                         <u>Design and Styling:</u> The website aims for a retro look. The search functionality coupled with the artists cars and then albumns and sogns is designed to be userfriendly and minimal.
                         </p>
-                    </div>
+                    </article>
                 </> 
                 :
                 repo.name === "Sweat-Spectrum-FullStack-Project" ? 
@@ -184,7 +184,7 @@ function ProjectPage(){
                 <div style={{paddingTop: '0px'}}>
                     
                     <div style={{textAlign: 'center'}} >
-                <img src="../../public/SweatSpectrum.png" width={'70%'} />
+                <img src="../SweatSpectrum.png" width={'70%'} />
                     </div>
                     
                     <div style={{paddingTop: '30px', textAlign: 'center'}}>
@@ -199,7 +199,7 @@ function ProjectPage(){
                 </div>
                
                 </div>
-                <div style={{padding: '25px', border: '1px solid black'}}>
+                <article style={{padding: '25px', border: '1px solid black'}}>
                         <p  style={{fontFamily: 'roboto-mono', fontSize: '20px' }} >
                         <strong>Overview:</strong><br/>
                         SweatSpectrum is a full-stack application developed by myself and my good friend, Barrett Kowalsky, during our time together at Flatiron School. Despite the time constraints, we managed to build this entire project in just one week. SweatSpectrum serves as a comprehensive fitness tracking application, empowering users to create accounts, organize workout groups, log individual workouts, and input various health data. With the integration of Chart.js, users can visualize their data through interactive charts.
@@ -222,7 +222,7 @@ function ProjectPage(){
                         <u>Data Visualization:</u> Chart.js<br/>
                         <u>Design and Styling:</u> SweatSpectrum employs a blend of PICO CSS and Tailwind to craft a clean, user-friendly interface, ensuring seamless navigation and efficient workout tracking for users. The combination of these frontend styling frameworks enables the creation of intuitive and visually appealing UI components, enhancing the overall user experience.
                          </p>
-                    </div>
+                    </article>
                 </> 
                 : ''
                 }
