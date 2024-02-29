@@ -20,144 +20,9 @@
   color: black;
   font-family: Kode Mono;
 }
-
-.project-card-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
-  justify-content: center;
-  /* padding-top: 60px; */
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (max-width: 766px){
-    .project-card-container{
-       padding-top: 40px;
-       padding-left: 9px;
-    }
-    .projects-title{
-      padding-top: 80px;
-    }
-
-}
-@media (max-width: 755px){
-  .project-card-container{
-     padding-top: 40px;
-     padding-left: 9px;
-  }
-  .projects-title{
-    padding-top: 120px;
-  }
-
-}
-@media (max-width: 686px){
-  .project-card-container{
-     padding-top: 40px;
-     padding-left: 9px;
-  }
-  .projects-title{
-    padding-top: 150px;
-  }
-
-}
-@media (max-width: 661px){
-  .project-card-container{
-     padding-top: 40px;
-     padding-left: 9px;
-  }
-  .projects-title{
-    padding-top: 180px;
-  }
-
-}
-@media (max-width: 543px){
-  .project-card-container{
-     padding-top: 40px;
-     padding-left: 9px;
-  }
-  .projects-title{
-    padding-top: 200px;
-  }
-
-}
-@media (max-width: 430px){
-  .project-card-container{
-     padding-top: 40px;
-     padding-left: 9px;
-  }
-  .projects-title{
-    padding-top: 100px;
-  }
-
-}
-@media (max-width: 412px){
-  .project-card-container{
-     padding-top: 40px;
-     padding-left: 9px;
-  }
-  .projects-title{
-    padding-top: 180px;
-  }
-
-}
-
-
-@media (max-width: 450px){
-  .project-card-container{
-     padding-top: 40px;
-     padding-left: 9px;
-  }
-  .projects-title{
-    padding-top: 330px;
-  }
-
-}
-
-@media (max-width: 385px){
-  .project-card-container{
-     padding-top: 40px;
-     padding-left: 9px;
-  }
-  .projects-title{
-    padding-top: 480px;
-  }
-
-}
-@media (max-width: 351px){
-  .project-card-container{
-     padding-top: 40px;
-     padding-left: 9px;
-  }
-  .projects-title{
-    padding-top: 530px;
-  }
-}
-@media (max-width: 316px){
-  .project-card-container{
-     padding-top: 40px;
-     padding-left: 9px;
-  }
-  .projects-title{
-    padding-top: 620px;
-  }
-}
-@media (max-width: 308px){
-  .project-card-container{
-     padding-top: 40px;
-     padding-left: 9px;
-  }
-  .projects-title{
-    padding-top: 690px;
-  }
-}
-@media (max-width: 286px){
-  .project-card-container{
-     padding-top: 40px;
-     padding-left: 9px;
-  }
-  .projects-title{
-    padding-top: 740px;
-  }
+.vertical-carousel {
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -172,4 +37,7 @@
   height: auto; 
   width: 100%; /* 100% of the viewport width */
   overflow: hidden;
+}
+.cararararar{
+  background-color: #E0E4E2;
 }
