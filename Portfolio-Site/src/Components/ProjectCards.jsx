@@ -8,7 +8,7 @@ function ProjectCard() {
     const navigate = useNavigate();
     const [repos, setRepos] = useState([]);
     const [error, setError] = useState('');
-    const repoNames = ['allCar-FullStack-Project', 'Sweat-Spectrum-FullStack-Project', 'Song-Synth-React-Project', 'Subscription-Saver-Python-Project', 'Coffee-Compass-JavaScript-Project'];
+    const repoNames = ['allCar-FullStack-Project', 'Sweat-Spectrum-FullStack-Project', 'Song-Synth-React-Project', 'Subscription-Saver-Python-Project', 'Coffee-Compass-JavaScript-Project', 'Subscription-Saver-React-Native-App'];
     const perPage = 100; // Number of repositories per page
 
     useEffect(() => {
@@ -80,7 +80,8 @@ function ProjectCard() {
                                                         <>{repo.name} 💽 <img style={{ paddingTop: '8px' }} width={'400px'} src="../SubSaver.png" /></> :
                                                         repo.name === "Coffee-Compass-JavaScript-Project" ? 
                                                             <>{repo.name} ☕️ <img style={{ paddingTop: '8px' }} width={'400px'} src="'../../CoffeCompass.png" /></> :
-                                                            repo.name
+                                                                repo.name === "Subscription-Saver-React-Native-App" ? 
+                                                                    <>{repo.name} <img style={{ paddingTop: '8px' }} width={'200px'} src="'../../SubSaver.jpg" /></> :''
                                         }</div>
                                     </h2>
                                     <a style={{ fontSize: '20px', fontFamily: 'roboto-mono', color: '#738678' }} target="_blank" href={repo.html_url} onClick={(e) => handleLinkClick(e, repo.html_url)}>
